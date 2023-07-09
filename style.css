@@ -10,7 +10,7 @@
  align-items: center;
  height: 65px;
  background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%); ;
-color: white;
+ color: white;
 }
 
 .header-img{
@@ -20,3 +20,24 @@ color: white;
 .header-text{
     margin: 0px 0.8rem;
 } 
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+}
+
+.form input{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;;
+}
+
+.form button{
+    grid-column: 1 / -1 ;
+    background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%); ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
