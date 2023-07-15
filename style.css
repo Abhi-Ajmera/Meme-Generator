@@ -34,10 +34,55 @@
     border: 1px solid #D5D4D8;;
 }
 
-.form button{
+.form-button{
     grid-column: 1 / -1 ;
     background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%); ;
     color: white;
     border-radius: 5px;
     border: none;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    background:linear-gradient(90deg, #4c1560 1.18%, #9b0dce 100%); ;
+}
+
+.meme-div{
+    position: relative;
+    text-align: center;
+}
+
+.meme-img{
+    margin: 0px 18px;
+    max-width: 96%;
+    border-radius: 5px;
+}
+
+.meme-text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
 }
